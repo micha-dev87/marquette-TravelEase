@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-marquette/static/css/main.1b735c56.css",
-    "main.js": "/react-marquette/static/js/main.0030f961.js",
-    "static/js/206.1b40d4d5.chunk.js": "/react-marquette/static/js/206.1b40d4d5.chunk.js",
-    "static/media/Logo_TravelEase.png": "/react-marquette/static/media/Logo_TravelEase.542b4d44bd27bc5770e0.png",
-    "index.html": "/react-marquette/index.html"
+    "main.css": "/marquette-TravelEase/static/css/main.1b735c56.css",
+    "main.js": "/marquette-TravelEase/static/js/main.1c3ed3b0.js",
+    "static/js/206.1b40d4d5.chunk.js": "/marquette-TravelEase/static/js/206.1b40d4d5.chunk.js",
+    "static/media/Logo_TravelEase.png": "/marquette-TravelEase/static/media/Logo_TravelEase.542b4d44bd27bc5770e0.png",
+    "index.html": "/marquette-TravelEase/index.html"
   },
   "entrypoints": [
     "static/css/main.1b735c56.css",
-    "static/js/main.0030f961.js"
+    "static/js/main.1c3ed3b0.js"
   ]
 }
