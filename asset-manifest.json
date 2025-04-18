@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-marquette/static/css/main.1b735c56.css",
+    "main.js": "/react-marquette/static/js/main.0030f961.js",
+    "static/js/206.1b40d4d5.chunk.js": "/react-marquette/static/js/206.1b40d4d5.chunk.js",
+    "static/media/Logo_TravelEase.png": "/react-marquette/static/media/Logo_TravelEase.542b4d44bd27bc5770e0.png",
+    "index.html": "/react-marquette/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.1b735c56.css",
+    "static/js/main.0030f961.js"
+  ]
+}
