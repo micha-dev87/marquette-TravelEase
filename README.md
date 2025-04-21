@@ -1,46 +1,114 @@
-# Getting Started with Create React App
+# TravelEase - Application de Réservation de Voyage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TravelEase est une application web moderne de réservation de voyages développée avec React et TypeScript. Elle permet aux utilisateurs de rechercher, comparer et réserver des hôtels, des activités, des locations de voiture et des vols.
 
-## Available Scripts
+## Fonctionnalités
 
-In the project directory, you can run:
+- 🔍 Recherche avancée de destinations
+- 🏨 Réservation d'hôtels
+- 🚗 Locations de voiture
+- 🎯 Activités touristiques
+- ✈️ Réservation de vols
+- 📱 Interface responsive
+- 🔒 Système d'authentification
+- 💳 Paiement sécurisé
 
-### `npm start`
+## Technologies Utilisées
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React 18
+- TypeScript
+- Tailwind CSS
+- React Router
+- Heroicons
+- React Query (pour la gestion des données)
+- Formik & Yup (pour la validation des formulaires)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Prérequis
 
-### `npm test`
+- Node.js (version 14 ou supérieure)
+- npm ou yarn
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1. Clonez le dépôt :
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone https://github.com/votre-username/travelease.git
+cd travelease
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Installez les dépendances :
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm install
+# ou
+yarn install
+```
 
-### `npm run eject`
+3. Créez un fichier `.env` à la racine du projet et ajoutez vos variables d'environnement :
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```env
+REACT_APP_API_URL=votre_url_api
+REACT_APP_MAP_API_KEY=votre_clé_api
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Démarrage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Pour lancer l'application en mode développement :
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+npm start
+# ou
+yarn start
+```
 
-## Learn More
+L'application sera accessible à l'adresse [http://localhost:3000](http://localhost:3000).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Structure du Projet
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+src/
+├── assets/          # Images et autres ressources statiques
+├── components/      # Composants réutilisables
+│   ├── Layout.tsx
+│   ├── SearchBar.tsx
+│   ├── HotelCard.tsx
+│   ├── ActivityCard.tsx
+│   ├── CarRentalCard.tsx
+│   ├── FlightCard.tsx
+│   └── ...
+├── pages/          # Pages de l'application
+│   ├── HomePage.tsx
+│   ├── SearchPage.tsx
+│   ├── LoginPage.tsx
+│   └── ...
+├── types/          # Définitions TypeScript
+├── utils/          # Fonctions utilitaires
+└── App.tsx         # Point d'entrée de l'application
+```
+
+## Scripts Disponibles
+
+- `npm start` : Lance l'application en mode développement
+- `npm build` : Construit l'application pour la production
+- `npm test` : Lance les tests
+- `npm lint` : Vérifie le code avec ESLint
+- `npm format` : Formate le code avec Prettier
+
+## Contribution
+
+Les contributions sont les bienvenues ! Pour contribuer :
+
+1. Fork le projet
+2. Créez une branche pour votre fonctionnalité (`git checkout -b feature/AmazingFeature`)
+3. Committez vos changements (`git commit -m 'Add some AmazingFeature'`)
+4. Push vers la branche (`git push origin feature/AmazingFeature`)
+5. Ouvrez une Pull Request
+
+## Licence
+
+Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+
+## Contact
+
+Pour toute question ou suggestion, n'hésitez pas à nous contacter à contact@travelease.com
